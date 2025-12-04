@@ -3,4 +3,22 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+button {
+   color: green;
+   padding: 2px;
+   font-size: large;
 }
